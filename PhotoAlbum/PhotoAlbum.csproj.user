@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>"C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg" "C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg" "http://www.google.com/intl/en_ALL/images/srpr/logo1w.png" "http://profile.ak.fbcdn.net/hprofile-ak-snc4/hs446.snc4/49137_100001257166048_2585_n.jpg" "file://Ayesha-pc/c/Pictures"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>/publish/|C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\publish\|http://outerdev.heliohost.org/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>\\server\myapplication\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,3 @@
+This software require Microsoft .NET Framework 4.
+If you don't have it installed you can get it from
+http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en

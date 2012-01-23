@@ -1,0 +1,7 @@
+This software is available free of charge: you can redistribute it,
+without modification and without charging a fee of any kind.
+
+This software is provided "as is" without waranty of any kind.
+In no event will the author or copyright holder be held liable
+for any damages arising out of the use or inablility to use this
+software.

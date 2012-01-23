@@ -1,0 +1,16 @@
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\bin\Debug\PhotoAlbum.exe
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\bin\Debug\PhotoAlbum.pdb
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.AboutBox.resources
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.AddItem.resources
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.Options.resources
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.PhotoAlbum.resources
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.Properties.Resources.resources
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.Waiting.resources
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.exe
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\PhotoAlbum.pdb
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\bin\Debug\PhotoAlbum.exe.config
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog

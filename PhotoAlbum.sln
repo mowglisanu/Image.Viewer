@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum", "PhotoAlbum\PhotoAlbum.csproj", "{DA4B3CD8-C7D2-44D7-BABA-A9442232FCBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4B3CD8-C7D2-44D7-BABA-A9442232FCBF}.Debug|x86.ActiveCfg = Debug|x86
+		{DA4B3CD8-C7D2-44D7-BABA-A9442232FCBF}.Debug|x86.Build.0 = Debug|x86
+		{DA4B3CD8-C7D2-44D7-BABA-A9442232FCBF}.Release|x86.ActiveCfg = Release|x86
+		{DA4B3CD8-C7D2-44D7-BABA-A9442232FCBF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

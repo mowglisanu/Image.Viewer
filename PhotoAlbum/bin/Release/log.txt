@@ -1,0 +1,119 @@
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 02:07:59
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 02:11:35
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 03:06:38
+File: C:\Users\mitchell\Desktop\backup\themes\UN3.JPG
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 03:06:41
+File: C:\Users\mitchell\Desktop\backup\themes\UN2.JPG
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 03:23:45
+File: C:\Users\mitchell\Desktop\backup\themes\act tom b.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 03:27:39
+File: C:\Users\mitchell\Desktop\backup\themes\UN2.JPG
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 03:27:41
+File: C:\Users\mitchell\Desktop\backup\themes\UN3.JPG
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 25/12/2010 03:27:46
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 26/12/2010 02:00:04
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 26/12/2010 02:36:31
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 26/12/2010 02:41:42
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 26/12/2010 02:43:29
+File: C:\Users\mitchell\Desktop\backup\themes\UN3.JPG
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 26/12/2010 02:43:32
+File: C:\Users\mitchell\Desktop\backup\themes\UN2.JPG
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 422
+----------
+Application: PhotoAlbum
+Time: 26/12/2010 06:42:11
+File: C:\Users\mitchell\Desktop\backup\themes\Baby_Moving_Mejorado.gif
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 423
+----------
+Application: PhotoAlbum
+Time: 17/01/2011 04:21:37
+File: 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at PhotoAlbum.PhotoAlbum.checkForUpdatesToolStripMenuItem_Click(Object sender, EventArgs ea) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 2078
+----------
+Application: PhotoAlbum
+Time: 17/01/2011 09:06:40
+File: 
+System.InvalidOperationException: This collection holds request headers and cannot contain the specified response header.
+   at System.Net.WebHeaderCollection.get_Item(HttpResponseHeader header)
+   at PhotoAlbum.PhotoAlbum.checkForUpdatesToolStripMenuItem_Click(Object sender, EventArgs ea) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 2082
+----------
+Application: PhotoAlbum
+Time: 13/06/2011 02:14:23
+File: C:\Users\mitchell\Desktop\zlib-1.2.5\TimeCube\curl-7.21.3\parodies\dizney\Alice006.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 426
