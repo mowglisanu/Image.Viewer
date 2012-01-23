@@ -1269,25 +1269,53 @@ namespace PhotoAlbum
                 case Keys.Up:
                     if (dragVeritcal)
                     {
-                        dragImage(0, -4*scrollMultiplier);
+                        if (e.Shift)
+                        {
+                            dragImage(0, -(int)(clipY + 1));//fix
+                        }
+                        else
+                        {
+                            dragImage(0, -4 * scrollMultiplier);
+                        }
                     }
                     break;
                 case Keys.Down:
                     if (dragVeritcal)
                     {
-                        dragImage(0, 4*scrollMultiplier);
+                        if (e.Shift)
+                        {
+                            dragImage(0, int.MaxValue);//fix
+                        }
+                        else
+                        {
+                            dragImage(0, 4 * scrollMultiplier);
+                        }
                     }
                     break;
                 case Keys.Left:
                     if (dragHorizontal)
                     {
-                        dragImage(-4*scrollMultiplier, 0);
+                        if (e.Shift)
+                        {
+                            dragImage(-(int)(clipX + 1), 0);//fix
+                        }
+                        else
+                        {
+                            dragImage(-4 * scrollMultiplier, 0);
+                        }
                     }
                     break;
                 case Keys.Right:
                     if (dragHorizontal)
                     {
-                        dragImage(4*scrollMultiplier, 0);
+                        if (e.Shift)
+                        {
+                            dragImage(int.MaxValue, 0);
+                        }
+                        else
+                        {
+                            dragImage(4 * scrollMultiplier, 0);//fix
+                        }
                     }
                     break;
             }
