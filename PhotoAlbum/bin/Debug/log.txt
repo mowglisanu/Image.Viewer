@@ -1546,3 +1546,253 @@ System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid fo
    at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
    at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
    at PhotoAlbum.PhotoAlbum.buildIcons() in C:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 637
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:31:53
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:31:53
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:31:53
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:31:53
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:31:58
+File: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:32:05
+File: http://profile.ak.fbcdn.net/hprofile-ak-snc4/hs446.snc4/49137_100001257166048_2585_n.jpg
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at System.Windows.Forms.PictureBox.Load()
+   at System.Windows.Forms.PictureBox.set_ImageLocation(String value)
+   at System.Windows.Forms.PictureBox.Load(String url)
+   at PhotoAlbum.PhotoAlbum.lia() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 515
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:32:13
+File: file://Ayesha-pc/c/Pictures
+System.IO.IOException: The network name cannot be found.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at System.Windows.Forms.PictureBox.Load()
+   at System.Windows.Forms.PictureBox.set_ImageLocation(String value)
+   at System.Windows.Forms.PictureBox.Load(String url)
+   at PhotoAlbum.PhotoAlbum.lia() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 515
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:35:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:35:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:35:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:35:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:37:12
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:37:12
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:37:12
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:37:12
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:40:03
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:40:03
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:40:03
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:40:03
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:41:28
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:41:28
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:41:28
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:41:28
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:44:19
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:44:19
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:44:19
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:44:19
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:46:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:46:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:46:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 652
+----------
+Application: PhotoAlbum
+Time: 25/01/2012 07:46:06
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 441
