@@ -133,3 +133,11 @@ System.IO.IOException: The process cannot access the file 'C:\Users\Randy\Deskto
    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
    at System.IO.File.Delete(String path)
    at PhotoAlbum.PhotoAlbum.deleteFile() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 1767
+----------
+Application: PhotoAlbum
+Time: 26/01/2012 03:38:57
+File: C:\Users\Public\Pictures\Sample Pictures\Chrysanthemum.jpg
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at PhotoAlbum.PhotoAlbum.serverThread() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 167

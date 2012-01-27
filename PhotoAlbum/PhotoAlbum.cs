@@ -429,6 +429,7 @@ namespace PhotoAlbum
 
         private void open(string fileName)
         {
+            if (image != null) image.Dispose();
             cancelRemoteLoad = true;
             if (Uri.IsWellFormedUriString(fileName, UriKind.Absolute))
             {
@@ -1622,10 +1623,10 @@ namespace PhotoAlbum
         private void close()
         {
             fileList = null;
+            image.Dispose();
             image = null;
             canvas.Image = null;
             dragHorizontal = dragVeritcal = false;
-
             toolStripStatusName.Text = "No Image Loaded";
             toolStripStatusName.Image = null;
             toolStripStatusIndex.Text = "0/0";
