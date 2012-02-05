@@ -141,3 +141,24 @@ System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket a
    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
    at System.Net.Sockets.Socket.Bind(EndPoint localEP)
    at PhotoAlbum.PhotoAlbum.serverThread() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 167
+----------
+Application: PhotoAlbum
+Time: 04/02/2012 02:53:59
+File: \\Ayesha-pc\d\Development\pspsdk\New folder\vixine\1199646970.vixinecomics_scyra_fire_02_1024.jpg
+System.ArgumentException: Value of '\\Ayesha-pc\d\Development\pspsdk\New folder\vixine\1199646970.vixinecomics_scyra_fire_02_1024.jpg' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 648
+----------
+Application: PhotoAlbum
+Time: 04/02/2012 02:54:00
+File: \\Ayesha-pc\d\Development\pspsdk\New folder\vixine\1199646970.vixinecomics_scyra_fire_02_1024.jpg
+System.ArgumentException: Value of '\\Ayesha-pc\d\Development\pspsdk\New folder\vixine\1213432076.vixinecomics_zandria_anidesktop800.gif' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 648
+----------
+Application: PhotoAlbum
+Time: 04/02/2012 02:54:00
+File: \\Ayesha-pc\d\Development\pspsdk\New folder\vixine\1199646970.vixinecomics_scyra_fire_02_1024.jpg
+System.ArgumentException: Value of '\\Ayesha-pc\d\Development\pspsdk\New folder\vixine\svsworld.com.png' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 648

@@ -26,3 +26,17 @@ I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\P
 I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Waiting.resources
 I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.read.1.tlog
 I:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.write.1.tlog
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\bin\Release\PhotoAlbum.exe.config
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.exe
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.pdb
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\bin\Release\PhotoAlbum.exe
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\bin\Release\PhotoAlbum.pdb
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\ResolveAssemblyReference.cache
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.AboutBox.resources
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.AddItem.resources
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Options.resources
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.PhotoAlbum.resources
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Properties.Resources.resources
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Waiting.resources
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.read.1.tlog
+L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.write.1.tlog

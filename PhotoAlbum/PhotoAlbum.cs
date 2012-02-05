@@ -806,7 +806,6 @@ namespace PhotoAlbum
             }
             panelCanvas.Visible = false;
             canvas.Dock = DockStyle.Fill;
-            canvas.Visible = true;
             if (loadingRemoteImage && !cancelRemoteLoad)
             {
                 int xPad = (canvas.Width - image.Width) / 2;
@@ -970,6 +969,7 @@ namespace PhotoAlbum
             validatePadding(width, height, left, top, ref right, ref bottom);
             canvas.Padding = new Padding(left, top, right, bottom);
             canvas.Image = canvasImage;
+            canvas.Visible = true;
             canvas.Invalidate();
             zoomPcTtoolStripLabel.Text = (scaleFactor * 100) + "%";
             return true;
