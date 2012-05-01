@@ -51,6 +51,7 @@ namespace PhotoAlbum
         private bool scanDirectory = true;
         private bool allowMultipleWindows = true;
         private bool resetZoom = true;
+        private bool fitimage = true;
         private Color bgColour = Color.Black;
 
         private Cursor hand, closeHand;
@@ -301,6 +302,18 @@ namespace PhotoAlbum
             }
             try
             {
+                x = bool.Parse((string)Microsoft.Win32.Registry.GetValue(keyName, "fitimage", "true"));
+            }
+            catch
+            {
+                x = true;
+            }
+            finally
+            {
+                fitimage = (bool)x;
+            }
+            try
+            {
                 x = bool.Parse((string)Microsoft.Win32.Registry.GetValue(keyName, "resetzoom", "true"));
             }
             catch
@@ -341,6 +354,7 @@ namespace PhotoAlbum
         {
             TopMost = false;
             resetZoom = true;
+            fitimage = true;
             allowMultipleWindows = false;
             WindowState = FormWindowState.Normal;
             scanDirectory = true;
@@ -365,6 +379,10 @@ namespace PhotoAlbum
                 imageIndex = 0;
                 indexToolStripInit();
                 open(imageIndex);
+            }
+            if (fitimage)
+            {
+                fitImage();
             }
         }
 
@@ -2281,6 +2299,18 @@ namespace PhotoAlbum
             FullScreen = true;
         }
 
+        public bool FitImage
+        {
+            get
+            {
+                return fitimage;
+            }
+            set
+            {
+                fitimage = value;
+            }
+        }
+
         public bool ResetZoom
         {
             get
@@ -2366,6 +2396,7 @@ namespace PhotoAlbum
                 Microsoft.Win32.Registry.SetValue(keyName, "topmost", TopMost.ToString());
                 Microsoft.Win32.Registry.SetValue(keyName, "exitesc", exitEsc.ToString());
                 Microsoft.Win32.Registry.SetValue(keyName, "resetzoom", resetZoom.ToString());
+                Microsoft.Win32.Registry.SetValue(keyName, "fitimage", fitimage.ToString());
                 Microsoft.Win32.Registry.SetValue(keyName, "fullscreen", FullScreen.ToString());
                 Microsoft.Win32.Registry.SetValue(keyName, "allowmultiplewindows", allowMultipleWindows.ToString());
             }

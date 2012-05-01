@@ -40,3 +40,17 @@ L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\P
 L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Waiting.resources
 L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.read.1.tlog
 L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.write.1.tlog
+E:\development\projects\PhotoAlbum\PhotoAlbum\bin\Release\PhotoAlbum.exe.config
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.exe
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.pdb
+E:\development\projects\PhotoAlbum\PhotoAlbum\bin\Release\PhotoAlbum.exe
+E:\development\projects\PhotoAlbum\PhotoAlbum\bin\Release\PhotoAlbum.pdb
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\ResolveAssemblyReference.cache
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.AboutBox.resources
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.AddItem.resources
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Options.resources
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.PhotoAlbum.resources
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Properties.Resources.resources
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\PhotoAlbum.Waiting.resources
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.read.1.tlog
+E:\development\projects\PhotoAlbum\PhotoAlbum\obj\x86\Release\GenerateResource.write.1.tlog

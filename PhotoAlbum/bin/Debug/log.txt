@@ -1889,3 +1889,34 @@ File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCr
 System.ArgumentException: Parameter is not valid.
    at System.Drawing.Bitmap..ctor(String filename)
    at PhotoAlbum.PhotoAlbum.open(String fileName) in L:\Users\mitchell\Documents\development\visual studio 2010\Projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 442
+----------
+Application: PhotoAlbum
+Time: 01/05/2012 04:25:02
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in E:\development\projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 671
+----------
+Application: PhotoAlbum
+Time: 01/05/2012 04:25:02
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.IO.FileNotFoundException: C:\Users\mitchell\Documents\BioWare\20838666_17588921_L__Death_Note_s2_by_xLostxGirLx.jpg
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in E:\development\projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 671
+----------
+Application: PhotoAlbum
+Time: 01/05/2012 04:25:02
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Value of 'file://Ayesha-pc/c/Pictures' is not valid for 'filePath'.
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath, Int32 index)
+   at System.Drawing.Icon.ExtractAssociatedIcon(String filePath)
+   at PhotoAlbum.PhotoAlbum.buildIcons() in E:\development\projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 671
+----------
+Application: PhotoAlbum
+Time: 01/05/2012 04:25:02
+File: C:\Users\mitchell\Documents\BioWare\Street_Fighter_Tribute_Cover_by_UdonCrewflex.jpg
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(String filename)
+   at PhotoAlbum.PhotoAlbum.open(String fileName) in E:\development\projects\PhotoAlbum\PhotoAlbum\PhotoAlbum.cs:line 460

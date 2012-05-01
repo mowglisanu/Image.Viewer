@@ -30,6 +30,7 @@
         {
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabGeneral = new System.Windows.Forms.TabPage();
+            this.checkBoxExitWithEsc = new System.Windows.Forms.CheckBox();
             this.checkBoxResetZoom = new System.Windows.Forms.CheckBox();
             this.checkBoxTopmost = new System.Windows.Forms.CheckBox();
             this.checkBoxAllowMultipleWindows = new System.Windows.Forms.CheckBox();
@@ -51,7 +52,7 @@
             this.buttonOkay = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonApply = new System.Windows.Forms.Button();
-            this.checkBoxExitWithEsc = new System.Windows.Forms.CheckBox();
+            this.checkBoxFitImage = new System.Windows.Forms.CheckBox();
             this.tabControl.SuspendLayout();
             this.tabGeneral.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -67,11 +68,12 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(387, 208);
+            this.tabControl.Size = new System.Drawing.Size(387, 216);
             this.tabControl.TabIndex = 0;
             // 
             // tabGeneral
             // 
+            this.tabGeneral.Controls.Add(this.checkBoxFitImage);
             this.tabGeneral.Controls.Add(this.checkBoxExitWithEsc);
             this.tabGeneral.Controls.Add(this.checkBoxResetZoom);
             this.tabGeneral.Controls.Add(this.checkBoxTopmost);
@@ -83,15 +85,25 @@
             this.tabGeneral.Location = new System.Drawing.Point(4, 22);
             this.tabGeneral.Name = "tabGeneral";
             this.tabGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tabGeneral.Size = new System.Drawing.Size(379, 182);
+            this.tabGeneral.Size = new System.Drawing.Size(379, 190);
             this.tabGeneral.TabIndex = 2;
             this.tabGeneral.Text = "General";
             this.tabGeneral.UseVisualStyleBackColor = true;
             // 
+            // checkBoxExitWithEsc
+            // 
+            this.checkBoxExitWithEsc.AutoSize = true;
+            this.checkBoxExitWithEsc.Location = new System.Drawing.Point(8, 167);
+            this.checkBoxExitWithEsc.Name = "checkBoxExitWithEsc";
+            this.checkBoxExitWithEsc.Size = new System.Drawing.Size(89, 17);
+            this.checkBoxExitWithEsc.TabIndex = 12;
+            this.checkBoxExitWithEsc.Text = "Exit With Esc";
+            this.checkBoxExitWithEsc.UseVisualStyleBackColor = true;
+            // 
             // checkBoxResetZoom
             // 
             this.checkBoxResetZoom.AutoSize = true;
-            this.checkBoxResetZoom.Location = new System.Drawing.Point(8, 121);
+            this.checkBoxResetZoom.Location = new System.Drawing.Point(8, 144);
             this.checkBoxResetZoom.Name = "checkBoxResetZoom";
             this.checkBoxResetZoom.Size = new System.Drawing.Size(82, 17);
             this.checkBoxResetZoom.TabIndex = 11;
@@ -300,7 +312,7 @@
             // buttonOkay
             // 
             this.buttonOkay.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonOkay.Location = new System.Drawing.Point(138, 214);
+            this.buttonOkay.Location = new System.Drawing.Point(146, 222);
             this.buttonOkay.Name = "buttonOkay";
             this.buttonOkay.Size = new System.Drawing.Size(75, 23);
             this.buttonOkay.TabIndex = 1;
@@ -311,7 +323,7 @@
             // buttonCancel
             // 
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(300, 214);
+            this.buttonCancel.Location = new System.Drawing.Point(308, 222);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 2;
@@ -321,7 +333,7 @@
             // buttonApply
             // 
             this.buttonApply.Enabled = false;
-            this.buttonApply.Location = new System.Drawing.Point(219, 214);
+            this.buttonApply.Location = new System.Drawing.Point(227, 222);
             this.buttonApply.Name = "buttonApply";
             this.buttonApply.Size = new System.Drawing.Size(75, 23);
             this.buttonApply.TabIndex = 3;
@@ -329,15 +341,18 @@
             this.buttonApply.UseVisualStyleBackColor = true;
             this.buttonApply.Click += new System.EventHandler(this.buttonApply_Click);
             // 
-            // checkBoxExitWithEsc
+            // checkBoxFitImage
             // 
-            this.checkBoxExitWithEsc.AutoSize = true;
-            this.checkBoxExitWithEsc.Location = new System.Drawing.Point(8, 145);
-            this.checkBoxExitWithEsc.Name = "checkBoxExitWithEsc";
-            this.checkBoxExitWithEsc.Size = new System.Drawing.Size(89, 17);
-            this.checkBoxExitWithEsc.TabIndex = 12;
-            this.checkBoxExitWithEsc.Text = "Exit With Esc";
-            this.checkBoxExitWithEsc.UseVisualStyleBackColor = true;
+            this.checkBoxFitImage.AutoSize = true;
+            this.checkBoxFitImage.Checked = true;
+            this.checkBoxFitImage.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxFitImage.Location = new System.Drawing.Point(8, 121);
+            this.checkBoxFitImage.Name = "checkBoxFitImage";
+            this.checkBoxFitImage.Size = new System.Drawing.Size(68, 17);
+            this.checkBoxFitImage.TabIndex = 13;
+            this.checkBoxFitImage.Text = "Fit image";
+            this.checkBoxFitImage.UseVisualStyleBackColor = true;
+            this.checkBoxFitImage.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
             // Options
             // 
@@ -345,7 +360,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(387, 242);
+            this.ClientSize = new System.Drawing.Size(387, 251);
             this.Controls.Add(this.buttonApply);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonOkay);
@@ -392,5 +407,6 @@
         private System.Windows.Forms.CheckBox checkBoxTopmost;
         private System.Windows.Forms.CheckBox checkBoxResetZoom;
         private System.Windows.Forms.CheckBox checkBoxExitWithEsc;
+        private System.Windows.Forms.CheckBox checkBoxFitImage;
     }
 }

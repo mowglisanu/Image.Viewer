@@ -66,6 +66,7 @@ namespace PhotoAlbum
             checkBoxTopmost.Checked = parent.TopMost;
             checkBoxExitWithEsc.Checked = parent.ExitEsc;
             checkBoxAllowMultipleWindows.Checked = parent.AllowMultipleWindows;
+            checkBoxFitImage.Checked = parent.FitImage;
         }
 
         private void buttonChangeBgColour_Click(object sender, EventArgs e)
@@ -113,6 +114,7 @@ namespace PhotoAlbum
             parent.ExitEsc = checkBoxExitWithEsc.Checked;
             parent.ResetZoom = checkBoxResetZoom.Checked;
             parent.AllowMultipleWindows = checkBoxAllowMultipleWindows.Checked;
+            parent.FitImage = checkBoxFitImage.Checked;
             ArrayList ext = new ArrayList();
             if (checkBoxJpeg.Checked)
             {
